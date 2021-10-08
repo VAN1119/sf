@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
     box-sizing: border-box;
+    background-color: gray;
 }
 
 .ans{
@@ -29,10 +30,12 @@ a {
     text-decoration: none;
     display: block;
     color: #000;
+    background-color: white;
 }
 
 a:hover {
     color: #fff;
+    background-color: black;
 }
 
 h1 {
