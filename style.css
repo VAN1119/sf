@@ -4,10 +4,6 @@
     background-color: gray;
 }
 
-.ans{
-    text-align: center;
-}
-
 .btn {
     width: 200px;
     height: 35px;
@@ -47,6 +43,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 30px;
 }
 
 h2::before {
@@ -90,3 +87,29 @@ span {
     font-size: 35px;
 }
 
+.ans{
+    text-align: center;
+}
+
+.picture {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between; 
+}
+
+img {
+    margin-bottom: 5px;
+}
+
+@keyframes open-keyanime1{ /* アニメーションの動き */ 
+    0% {
+      opacity:0; /* 完全に透明 */ } 
+    100% {
+      opacity:1; /* 透明度無し、通常表示 */ } } 
+  .animation1{ 
+    animation-name: open-keyanime1 ; 
+    animation-duration: 8s; /* 5秒間で表示 */ 
+    animation-fill-mode: both;  
+  }
