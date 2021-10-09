@@ -55,12 +55,24 @@ h2::after {
     content: "】";
     color: blue;
 }
+.topic {
+    text-align: center;
+}
+.rule {
+    text-align: center;
+    display: block;
+}
+
+.ask {
+    text-align: center;
+    display: block;
+}
 
 p {
     font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding-bottom: 20px;
+    text-align: left;
+    display: inline-block;
 }
 
 .text {
@@ -84,7 +96,8 @@ span {
 
 .big {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 38px;
+    text-align: center;
 }
 
 .ans{
