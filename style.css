@@ -69,7 +69,7 @@ h2::after {
 }
 
 p {
-    font-size: 25px;
+    font-size: 23px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     display: inline-block;
@@ -124,5 +124,6 @@ img {
   .animation1{ 
     animation-name: open-keyanime1 ; 
     animation-duration: 8s; /* 5秒間で表示 */ 
-    animation-fill-mode: both;  
+    animation-fill-mode: both;
+    width: 350px;
   }
