@@ -127,3 +127,7 @@ img {
     animation-fill-mode: both;
     width: 350px;
   }
+
+@media (max-width:767px) {
+.show {width: 50px;}
+}
