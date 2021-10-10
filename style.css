@@ -119,5 +119,6 @@ img {
   }
 
 @media (max-width:767px) {
-.show {width: 45px;}
+.show {width: 40px;}
+.qpic {width: 125px;}
 }
