@@ -29,6 +29,7 @@ h1 {
     text-align: center;
     background-color: rgb(80, 136, 211);
     color: white;
+    margin-top: 10px;
 }
 
 h2 {
@@ -98,9 +99,13 @@ span {
 .picture {
     width: 100%;
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     align-content: space-between; 
+}
+
+.show {
+    width: 100px;
 }
 
 img {
