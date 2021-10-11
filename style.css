@@ -70,13 +70,14 @@ p {
 }
 
 footer {
+    color: white;
     background-color: black;
     width: 100%;
     margin-top: 50px;
+    text-align: center;
 }
 
 small {
-    color: white;
     background-color: black;
 }
 
@@ -120,5 +121,5 @@ img {
 
 @media (max-width:767px) {
 .show {width: 40px;}
-.qpic {width: 125px;}
+.qpic {width: 150px;}
 }
