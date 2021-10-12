@@ -85,6 +85,15 @@ span {
     font-weight: bold;
 }
 
+span.b {
+    color: red;
+}
+
+span.tb {
+    color: red;
+    background-color: rgb(80, 136, 211);
+}
+
 .big {
     font-weight: bold;
     font-size: 38px;
