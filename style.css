@@ -118,7 +118,7 @@ span.tb {
 }
 
 .qpic {
-    margin: 0 10px;
+    margin: 0 10px 10px;
 }
 
 @keyframes open-keyanime1{ /* アニメーションの動き */ 
@@ -134,6 +134,6 @@ span.tb {
   }
 
 @media (max-width:767px) {
-.show {width: 40px;}
+.show {width: 35px;}
 .qpic {width: 150px;}
 }
