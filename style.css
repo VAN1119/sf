@@ -4,6 +4,35 @@
     background-color: gray;
 }
 
+/* リストのCSS */
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+ 
+.nav li {
+  width: 200px;
+  text-align: right;
+  margin: 0;
+}
+
+.nav li a {
+    display: block;
+    width: 130px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+.nav li a:hover {
+    opacity: 0.7;
+}
+
 a {
     width: 200px;
     height: 35px;
