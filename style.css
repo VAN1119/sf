@@ -165,12 +165,6 @@ span.tb {
     width: 350px;
   }
 
-@media (max-width:767px) {
-.show {width: 35px;}
-.qpic {width: 150px;}
-main.first {background-size: 100px;}
-}
-
 main.first {
     background-image: url(images/brain.png);
     background-position: center;
@@ -179,3 +173,13 @@ main.first {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+@media (max-width:767px) {
+.show {width: 50px;}
+.qpic {width: 180px;}
+h1 {font-size: 30px;}
+p.big {font-size: 20px;}
+p {font-size: 18px;}
+a {width: 80px;}
+}
+
